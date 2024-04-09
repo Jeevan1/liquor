@@ -1,0 +1,7 @@
+@mixin lineClimp($row) {
+    display: -webkit-box;
+    display: -webkit-box;
+    -webkit-line-clamp: $row;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
