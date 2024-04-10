@@ -3,7 +3,7 @@ export const navLinks = [
   { name: "Shop", link: "/" },
   {
     name: "Products",
-    link: "/products",
+    link: "/products/all",
     subItems: [
       { name: "Rum", link: "/rum" },
       { name: "Whisky", link: "/whisky" },
@@ -14,5 +14,5 @@ export const navLinks = [
     ],
   },
   { name: "About", link: "/about" },
-  { name: "Contact", link: "#contact" },
+  { name: "Contact", link: "/contact" },
 ];

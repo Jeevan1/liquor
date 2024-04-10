@@ -36,7 +36,7 @@ function Header() {
             <ul className="nav__items d-flex justify-content-end">
               {navLinks.map((link, i) => (
                 <li className="nav__link" key={i}>
-                  <Link to={`products/all`} className="link">
+                  <Link to={link.link} className="link">
                     {link.name}
                   </Link>
                   {link.subItems && (
