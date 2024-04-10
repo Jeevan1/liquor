@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Home, ProductDetails, Products } from "./pages";
-import { Footer, Header } from "./components";
+import { Cart, Footer, Header } from "./components";
 import { useSelector } from "react-redux";
 
 function App() {

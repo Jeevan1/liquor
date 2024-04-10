@@ -7,6 +7,7 @@ import ProductCard from "./product__card/ProductCard";
 import Offer from "./offers/Offer";
 import UniqueProducts from "./uniqueProducts/uniqueProducts";
 import Footer from "./footer/Footer";
+import Cart from "./cart/Cart";
 import SimilarProducts from "./similarProducts/SimilarProducts";
 export {
   Header,
@@ -19,4 +20,5 @@ export {
   UniqueProducts,
   Footer,
   SimilarProducts,
+  Cart,
 };

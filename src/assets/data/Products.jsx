@@ -8,7 +8,7 @@ export const alcoholProducts = [
         previousPrice: 1000,
         discountedPrice: 900,
         rating: 4.6,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 2,
@@ -19,7 +19,7 @@ export const alcoholProducts = [
         previousPrice: 1200,
         discountedPrice: 1100,
         rating: 4.5,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 3,
@@ -30,7 +30,7 @@ export const alcoholProducts = [
         previousPrice: 200,
         discountedPrice: 180,
         rating: 4.2,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 4,
@@ -41,7 +41,7 @@ export const alcoholProducts = [
         previousPrice: 180,
         discountedPrice: 160,
         rating: 4.4,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 5,
@@ -52,7 +52,7 @@ export const alcoholProducts = [
         previousPrice: 800,
         discountedPrice: 750,
         rating: 4.7,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 6,
@@ -63,7 +63,7 @@ export const alcoholProducts = [
         previousPrice: 1200,
         discountedPrice: 1100,
         rating: 4.3,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 7,
@@ -74,7 +74,7 @@ export const alcoholProducts = [
         previousPrice: 220,
         discountedPrice: 200,
         rating: 4.1,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 8,
@@ -85,7 +85,7 @@ export const alcoholProducts = [
         previousPrice: 500,
         discountedPrice: 450,
         rating: 4.8,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 9,
@@ -96,7 +96,7 @@ export const alcoholProducts = [
         previousPrice: 250,
         discountedPrice: 230,
         rating: 4.6,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 10,
@@ -107,7 +107,7 @@ export const alcoholProducts = [
         previousPrice: 300,
         discountedPrice: 280,
         rating: 4.4,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 11,
@@ -118,7 +118,7 @@ export const alcoholProducts = [
         previousPrice: 220,
         discountedPrice: 200,
         rating: 4.2,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 12,
@@ -129,7 +129,7 @@ export const alcoholProducts = [
         previousPrice: 1100,
         discountedPrice: 1000,
         rating: 4.5,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 13,
@@ -140,7 +140,7 @@ export const alcoholProducts = [
         previousPrice: 250,
         discountedPrice: 230,
         rating: 4.3,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 14,
@@ -151,7 +151,7 @@ export const alcoholProducts = [
         previousPrice: 1100,
         discountedPrice: 1000,
         rating: 4.4,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 15,
@@ -162,7 +162,7 @@ export const alcoholProducts = [
         previousPrice: 200,
         discountedPrice: 180,
         rating: 4.1,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 16,
@@ -173,7 +173,7 @@ export const alcoholProducts = [
         previousPrice: 1400,
         discountedPrice: 1300,
         rating: 4.7,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 17,
@@ -184,7 +184,7 @@ export const alcoholProducts = [
         previousPrice: 1500,
         discountedPrice: 1400,
         rating: 4.6,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 18,
@@ -195,7 +195,7 @@ export const alcoholProducts = [
         previousPrice: 1300,
         discountedPrice: 1200,
         rating: 4.5,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 19,
@@ -206,7 +206,7 @@ export const alcoholProducts = [
         previousPrice: 240,
         discountedPrice: 220,
         rating: 4.3,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
     { 
         id: 20,
@@ -217,6 +217,6 @@ export const alcoholProducts = [
         previousPrice: 1400,
         discountedPrice: 1300,
         rating: 4.7,
-        images: Array(3).fill("./assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/tuborg.png")
     },
 ];

@@ -36,6 +36,7 @@ function Products({ categories }) {
           <div className="row ">
             <div className="col-12">
               <div className="heading">
+                
                 <span>Products</span>/
                 <span>
                   {category &&

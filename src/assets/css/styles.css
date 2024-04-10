@@ -1,3 +1,7 @@
+.container {
+  position: relative;
+}
+
 .cyan__button {
   display: inline-block;
   background-color: #03a4ed;
@@ -436,4 +440,97 @@
 }
 .products .view__more .link {
   display: inline;
+}
+
+.cart__popup {
+  width: 500px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+.cart__popup__header {
+  padding: 20px;
+  background-color: #fafafa;
+  position: relative;
+}
+.cart__popup__header h4 {
+  font-weight: 600;
+}
+.cart__popup__header .icon {
+  font-size: 30px;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.cart__popup__content {
+  padding: 10px 20px;
+  height: 300px;
+  overflow-y: scroll;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item {
+  padding: 20px 10px 20px 0;
+  border-bottom: 1px solid grey;
+  display: flex;
+  position: relative;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__image {
+  margin-right: 20px;
+  height: 80px;
+  width: 90px;
+  border: 2px solid black;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__image img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__info {
+  width: calc(100% - 120px);
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__type {
+  padding: 10px 0;
+  color: gray;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__input input {
+  width: 70px;
+  position: relative;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__input .icon {
+  font-size: 30px;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item__price {
+  font-weight: 600;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item:last-child {
+  border-bottom: none;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item .remove__cart__item {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.cart__popup__content .cart__popup__items .cart__popup__item .remove__cart__item .icon {
+  font-size: 25px;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.cart__popup__footer {
+  padding: 20px;
+  background-color: #fafafa;
+}
+.cart__popup__footer .subtotal {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cart__popup__footer .subtotal h5 {
+  font-weight: 600;
+}
+.cart__popup__footer .checkout button {
+  padding: 7px 0;
+  width: 100%;
+  border: 1px solid black;
 }
