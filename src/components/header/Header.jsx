@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import {useSelector} from "react-redux";
 import { navLinks } from "../../assets/data/navLinks";
 import { Link } from "react-router-dom";
 import { RiSearch2Line, RiShoppingCart2Line } from "react-icons/ri";
@@ -10,6 +11,9 @@ function Header() {
   const [showCart,setShowCart] = useState(false);
   const [showSearch,setShowSearch] = useState(false);
   const cartRef = useRef(null);
+
+  const cartItem = useSelector((state) => state.cart);
+
   const handleClickOutside = (event) => {
     if (cartRef.current && !cartRef.current.contains(event.target)) {
       // Clicked outside of the popup, so close it
@@ -74,6 +78,7 @@ function Header() {
               </li>
               <li className="nav__link" ref={cartRef}>
                 <RiShoppingCart2Line className="icon" onClick={() => setShowCart(!showCart)}/>
+                <span className="cart__items__length border border-danger">{cartItem.length}</span>
                 {showCart && <Cart showHide = {setShowCart} status={showCart} />}
               </li>
             </ul>

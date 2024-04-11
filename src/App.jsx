@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
-import { About, Contact, Home, ProductDetails, Products } from "./pages";
+import { About, Checkout, Contact, Home, ProductDetails, Products } from "./pages";
 import { Cart, Footer, Header } from "./components";
 import { useSelector } from "react-redux";
 
@@ -28,6 +28,7 @@ function App() {
         { path: "/", element: <Home /> },
         { path: "/about", element: <About /> },
         { path: "/contact", element: <Contact /> },
+        { path: "/checkout", element: <Checkout /> },
         { path: "/products/:category", element: <Products /> },
         { path: "/search/:searchVal", element: <Products/> },
         { path: "/:id", element: <ProductDetails /> },

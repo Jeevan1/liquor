@@ -99,7 +99,7 @@ function Cart({ showHide, status }) {
           <h5>Subtotal:</h5>
           <h6>Rs.{totalAmount.toFixed(2)}</h6>
         </div>
-        <div className="checkout">
+        <div className="checkout__button">
           <button>Checkout</button>
         </div>
       </div>
