@@ -115,12 +115,12 @@
 }
 @media (max-width: 1000px) {
   .product__card__image img {
-    height: 200px;
+    height: 250px;
   }
 }
 @media (max-width: 778px) {
   .product__card__image img {
-    height: 150px;
+    height: 200px;
   }
 }
 .product__card__name {
@@ -186,6 +186,7 @@
   display: none;
   position: absolute;
   top: 100%;
+  z-index: 1;
   background-color: #fafafa;
 }
 .header nav .nav__items .nav__link .sub__link .sub__nav__link {

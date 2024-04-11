@@ -134,12 +134,12 @@
         }
         @media(max-width:1000px){
             img{
-                height: 200px;
+                height: 250px;
             }
         }
         @media(max-width:778px){
             img{
-                height: 150px;
+                height: 200px;
             }
         }
     }
@@ -219,6 +219,7 @@
                     display: none;
                     position: absolute;
                     top: 100%;
+                    z-index: 1;
                     background-color: $bg-white;
 
                     .sub__nav__link {
