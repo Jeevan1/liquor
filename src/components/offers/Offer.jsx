@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination} from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 
 function Offer() {
   const alcoholProducts = useSelector(
@@ -19,12 +19,42 @@ function Offer() {
           <div className="col-12">
             <div className="top__section">
               <h4>Offer Products</h4>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, odio.</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla,
+                odio.
+              </p>
             </div>
           </div>
-          
-          <Swiper slidesPerView={5} slidesPerGroup={5} modules={[Navigation, Pagination]}
-            navigation={true} className="mySwiper ">
+
+          <Swiper
+            slidesPerView={5}
+            slidesPerGroup={5}
+            modules={[Navigation, Pagination]}
+            navigation={true}
+            breakpoints={{
+              240:{
+                slidesPerView:1,
+                slidesPerGroup:1,
+              },
+              320: {
+                slidesPerView: 2,
+                slidesPerGroup:2,
+              },
+              480: {
+                slidesPerView: 2,
+                slidesPerGroup:2,
+              },
+              780: {
+                slidesPerView: 4,
+                slidesPerGroup:4,
+              },
+              1000: {
+                slidesPerView: 5,
+                slidesPerGroup:5,
+              }
+            }}
+            className="mySwiper "
+          >
             {alcoholProducts.map((product, i) => (
               <SwiperSlide className=" py-3" key={i}>
                 <ProductCard product={product} />
@@ -32,7 +62,9 @@ function Offer() {
             ))}
           </Swiper>
           <div className="view__more">
-          <Link to={''} className="link red__button">View More</Link>
+            <Link to={""} className="link red__button">
+              View More
+            </Link>
           </div>
         </div>
       </div>

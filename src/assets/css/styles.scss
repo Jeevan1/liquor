@@ -132,6 +132,16 @@
             transform: scale(0.8);
             transition: 0.1s;
         }
+        @media(max-width:1000px){
+            img{
+                height: 200px;
+            }
+        }
+        @media(max-width:778px){
+            img{
+                height: 150px;
+            }
+        }
     }
 
     &__name {
@@ -276,7 +286,6 @@
     background-repeat: no-repeat;
 
     .top__content {
-        margin-right: 30px;
         margin-bottom: 40px;
         text-align: center;
 
@@ -285,6 +294,7 @@
                 display: inline;
             }
         }
+
     }
 
     .bottom__content {
@@ -294,6 +304,11 @@
             object-fit: cover;
             // object-fit: scale-down;
             object-position: center;
+        }
+        @media(max-width: 780px){
+            img{
+                height: 200px;
+            }
         }
     }
 }
@@ -320,6 +335,9 @@
                 &:hover {
                     opacity: 1;
                 }
+            }
+            @media(max-width: 780px){
+                height: 80px;
             }
         }
     }
@@ -358,6 +376,7 @@
     }
 
     &__about {
+    
         p {
             font-weight: 500;
             color: #fff;
@@ -431,6 +450,15 @@
                 // font-size: 60px;
                 color: $cyan;
             }
+        }
+    }
+    hr{
+        display: none;
+    }
+    @media(max-width: 778px){
+        hr{
+            display: block;
+            margin-top: 20px;
         }
     }
 }
@@ -542,12 +570,18 @@
 
         .description {
             h6 {
+                font-size: 18px;
                 font-weight: 600;
                 margin-bottom: 10px;
             }
 
             p {
                 margin-right: 70px;
+            }
+            @media(max-width: 778px){
+                p{
+                    margin-right: 0;
+                }
             }
         }
     }
@@ -693,11 +727,20 @@
         }
 
         .checkout__button {
-            button {
+            display: flex;
+            .link {
                 padding: 7px 0;
                 width: 100%;
+                text-align: center;
                 border: 1px solid black;
             }
+        }
+    }
+    @media(max-width:778px){
+        width: 360px;
+        right: -100%;
+        &__content{
+           
         }
     }
 }
@@ -724,6 +767,12 @@
         .link {
             display: inline;
             font-weight: 500;
+        }
+    }
+    @media(max-width: 778px){
+        &__content{
+            text-align: center;
+            margin-right: 0;
         }
     }
 }
@@ -778,6 +827,17 @@
                     font-size: 14px;
                 }
             }
+        }
+    }
+    @media(max-width: 778px){
+        &__content{
+            text-align: center;
+            margin-right: 0;
+        }
+        &__form{
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0px;
         }
     }
 }

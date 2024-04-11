@@ -39,6 +39,28 @@ function UniqueProducts({ category, key }) {
             slidesPerGroup={5}
             navigation={true}
             slidesPerView={5}
+            breakpoints={{
+              240:{
+                slidesPerView:1,
+                slidesPerGroup:1,
+              },
+              320: {
+                slidesPerView: 2,
+                slidesPerGroup:2,
+              },
+              480: {
+                slidesPerView: 2,
+                slidesPerGroup:2,
+              },
+              780: {
+                slidesPerView: 4,
+                slidesPerGroup:4,
+              },
+              1000: {
+                slidesPerView: 5,
+                slidesPerGroup:5,
+              }
+            }}
             className="mySwiper "
           >
             {uniqueProducts.map((product, i) => (

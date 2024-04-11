@@ -7,7 +7,7 @@ function Footer({ category }) {
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-md-3">
             <div className="footer__about">
               {/* <img src="" alt="" /> */}
               <h2>LOGO</h2>
@@ -18,7 +18,8 @@ function Footer({ category }) {
               </p>
             </div>
           </div>
-          <div className="col-lg-3">
+          <hr />
+          <div className="col-md-3">
             <div className="footer__featured">
               <h5>Featured</h5>
               <ul>
@@ -33,7 +34,8 @@ function Footer({ category }) {
               </ul>
             </div>
           </div>
-          <div className="col-lg-3">
+          <hr />
+          <div className="col-md-3">
             <div className="footer__contact">
               <h5>Contact Us</h5>
               <div className="footer__contact__item">
@@ -50,7 +52,8 @@ function Footer({ category }) {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <hr />
+          <div className="col-md-3">
             <div className="footer__gallery">
               <h5>Gallery</h5>
               <div className="footer__gallery__items">
@@ -64,7 +67,7 @@ function Footer({ category }) {
           </div>
         </div>
         <div className="row pt-5">
-          <div className="col-lg-4">
+          <div className="col-md-4 pb-3">
             <div className="footer__payements d-flex gap-2">
               <img src="../../assets/images/payement/esewa.jpg" alt="esewa" />
               <img src="../../assets/images/payement/khalti.jpg" alt="khalti" />
@@ -72,12 +75,14 @@ function Footer({ category }) {
             
             </div>
           </div>
-          <div className="col-lg-4">
+          <hr />
+          <div className="col-md-4">
             <p className="footer__copyright">
               Lorem ipsum dolor sit amet, consectetur adipisicing.
             </p>
           </div>
-          <div className="col-lg-4">
+          <hr />
+          <div className="col-md-4">
             <div className="footer__social__media">
               <Link to={""} className="link">
                 <FaFacebookF className="icon"/>

@@ -46,7 +46,7 @@ function Products({ categories }) {
             </div>
             {products.length > 0 ? (
               products.map((product, i) => (
-                <div className="col-md-3" key={i}>
+                <div className="col-md-3 col-sm-6 col-6" key={i}>
                   <ProductCard product={product} />
                 </div>
               ))

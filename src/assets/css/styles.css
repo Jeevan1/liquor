@@ -113,6 +113,16 @@
   transform: scale(0.8);
   transition: 0.1s;
 }
+@media (max-width: 1000px) {
+  .product__card__image img {
+    height: 200px;
+  }
+}
+@media (max-width: 778px) {
+  .product__card__image img {
+    height: 150px;
+  }
+}
 .product__card__name {
   font-weight: 600;
   text-transform: capitalize;
@@ -226,7 +236,6 @@
   background-repeat: no-repeat;
 }
 .banner .top__content {
-  margin-right: 30px;
   margin-bottom: 40px;
   text-align: center;
 }
@@ -240,6 +249,11 @@
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+@media (max-width: 780px) {
+  .banner .bottom__content img {
+    height: 200px;
+  }
 }
 
 .brands {
@@ -262,6 +276,11 @@
 }
 .brands__container .brand__item img:hover {
   opacity: 1;
+}
+@media (max-width: 780px) {
+  .brands__container .brand__item {
+    height: 80px;
+  }
 }
 
 .featured {
@@ -347,6 +366,15 @@
 .footer__social__media .link .icon {
   color: #03a4ed;
 }
+.footer hr {
+  display: none;
+}
+@media (max-width: 778px) {
+  .footer hr {
+    display: block;
+    margin-top: 20px;
+  }
+}
 
 .product__details {
   padding: 80px 0 0 0;
@@ -426,11 +454,17 @@
   width: fit-content;
 }
 .product__details__content .description h6 {
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .product__details__content .description p {
   margin-right: 70px;
+}
+@media (max-width: 778px) {
+  .product__details__content .description p {
+    margin-right: 0;
+  }
 }
 
 .products {
@@ -541,10 +575,20 @@
 .cart__popup__footer .subtotal h5 {
   font-weight: 600;
 }
-.cart__popup__footer .checkout__button button {
+.cart__popup__footer .checkout__button {
+  display: flex;
+}
+.cart__popup__footer .checkout__button .link {
   padding: 7px 0;
   width: 100%;
+  text-align: center;
   border: 1px solid black;
+}
+@media (max-width: 778px) {
+  .cart__popup {
+    width: 360px;
+    right: -100%;
+  }
 }
 
 .about {
@@ -564,6 +608,12 @@
 .about__content .link {
   display: inline;
   font-weight: 500;
+}
+@media (max-width: 778px) {
+  .about__content {
+    text-align: center;
+    margin-right: 0;
+  }
 }
 
 .contact {
@@ -612,6 +662,17 @@
 .contact__form form input::placeholder,
 .contact__form form textarea::placeholder {
   font-size: 14px;
+}
+@media (max-width: 778px) {
+  .contact__content {
+    text-align: center;
+    margin-right: 0;
+  }
+  .contact__form {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0px;
+  }
 }
 
 .checkout {

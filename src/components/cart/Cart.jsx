@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { RxCross2 } from "react-icons/rx";
 import { deleteCart, updateCart } from "../../store/slice/cartSlice";
 import { CiSquarePlus, CiSquareMinus } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 function Cart({ showHide, status }) {
   const [image, setImage] = useState("");
@@ -99,8 +100,8 @@ function Cart({ showHide, status }) {
           <h5>Subtotal:</h5>
           <h6>Rs.{totalAmount.toFixed(2)}</h6>
         </div>
-        <div className="checkout__button">
-          <button>Checkout</button>
+        <div className="checkout__button" onClick={() => showHide(false)}>
+          <Link to="/checkout" className="link">Checkout</Link>
         </div>
       </div>
     </div>
