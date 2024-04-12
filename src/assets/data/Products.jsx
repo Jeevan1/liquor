@@ -8,7 +8,7 @@ export const alcoholProducts = [
         previousPrice: 1000,
         discountedPrice: 900,
         rating: 4.6,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/khukuri.png")
     },
     { 
         id: 2,
@@ -19,7 +19,7 @@ export const alcoholProducts = [
         previousPrice: 1200,
         discountedPrice: 1100,
         rating: 4.5,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/royal-stag.png")
     },
     { 
         id: 3,
@@ -41,7 +41,7 @@ export const alcoholProducts = [
         previousPrice: 180,
         discountedPrice: 160,
         rating: 4.4,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/gorkha.png")
     },
     { 
         id: 5,
@@ -52,18 +52,18 @@ export const alcoholProducts = [
         previousPrice: 800,
         discountedPrice: 750,
         rating: 4.7,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/liquor.png")
     },
     { 
         id: 6,
-        name: "Annapurna Vodka",
+        name: "Seto Bagh Vodka",
         type: "Vodka",
         alcoholPercentage: 40,
         origin: "Nepal",
         previousPrice: 1200,
         discountedPrice: 1100,
         rating: 4.3,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/seto-bagh.png")
     },
     { 
         id: 7,
@@ -74,7 +74,7 @@ export const alcoholProducts = [
         previousPrice: 220,
         discountedPrice: 200,
         rating: 4.1,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/yeti-lager.png")
     },
     { 
         id: 8,
@@ -85,7 +85,7 @@ export const alcoholProducts = [
         previousPrice: 500,
         discountedPrice: 450,
         rating: 4.8,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/raksi.png")
     },
     { 
         id: 9,
@@ -96,29 +96,29 @@ export const alcoholProducts = [
         previousPrice: 250,
         discountedPrice: 230,
         rating: 4.6,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/yeti.png")
     },
     { 
         id: 10,
-        name: "Manang Cider",
+        name: "Apple Cider",
         type: "Cider",
         alcoholPercentage: 7,
         origin: "Nepal",
         previousPrice: 300,
         discountedPrice: 280,
         rating: 4.4,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/apple-cider.png")
     },
     { 
         id: 11,
-        name: "Tiger Beer",
+        name: "Arna Beer 1 Case",
         type: "Beer",
         alcoholPercentage: 5,
         origin: "Nepal",
         previousPrice: 220,
         discountedPrice: 200,
         rating: 4.2,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/arna-1case.png")
     },
     { 
         id: 12,
@@ -129,7 +129,7 @@ export const alcoholProducts = [
         previousPrice: 1100,
         discountedPrice: 1000,
         rating: 4.5,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/ruslan.png")
     },
     { 
         id: 13,
@@ -140,29 +140,29 @@ export const alcoholProducts = [
         previousPrice: 250,
         discountedPrice: 230,
         rating: 4.3,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/carlsberg.png")
     },
     { 
         id: 14,
-        name: "Bagpiper Whisky",
+        name: "Green Label Whisky",
         type: "Whisky",
         alcoholPercentage: 42.8,
         origin: "Nepal",
         previousPrice: 1100,
         discountedPrice: 1000,
         rating: 4.4,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/green-label.png")
     },
     { 
         id: 15,
-        name: "Himalayan Ice Beer",
+        name: "Santa Sofia Beer",
         type: "Beer",
         alcoholPercentage: 4,
         origin: "Nepal",
         previousPrice: 200,
         discountedPrice: 180,
         rating: 4.1,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/santa-sofia.png")
     },
     { 
         id: 16,
@@ -173,7 +173,7 @@ export const alcoholProducts = [
         previousPrice: 1400,
         discountedPrice: 1300,
         rating: 4.7,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/black-chimney.png")
     },
     { 
         id: 17,
@@ -184,7 +184,7 @@ export const alcoholProducts = [
         previousPrice: 1500,
         discountedPrice: 1400,
         rating: 4.6,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/captain-morgan.png")
     },
     { 
         id: 18,
@@ -195,7 +195,7 @@ export const alcoholProducts = [
         previousPrice: 1300,
         discountedPrice: 1200,
         rating: 4.5,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/golden-oak.png")
     },
     { 
         id: 19,
@@ -210,13 +210,58 @@ export const alcoholProducts = [
     },
     { 
         id: 20,
-        name: "Absolut Vodka",
+        name: "Highlinder Vodka",
         type: "Vodka",
         alcoholPercentage: 40,
         origin: "Nepal",
         previousPrice: 1400,
         discountedPrice: 1300,
         rating: 4.7,
-        images: Array(3).fill("../../assets/images/tuborg.png")
+        images: Array(3).fill("../../assets/images/highlinder.png")
     },
+    { 
+        id: 21,
+        name: "Tuborg Can",
+        type: "Beer",
+        alcoholPercentage: 4,
+        origin: "Nepal",
+        previousPrice: 140,
+        discountedPrice: 130,
+        rating: 4.7,
+        images: Array(3).fill("../../assets/images/tuborg-can.png")
+    },
+    { 
+        id: 22,
+        name: "Arna Can",
+        type: "Beer",
+        alcoholPercentage: 4,
+        origin: "Nepal",
+        previousPrice: 140,
+        discountedPrice: 130,
+        rating: 4.7,
+        images: Array(3).fill("../../assets/images/arna-can.png")
+    },
+    { 
+        id: 23,
+        name: "8848 Vodka",
+        type: "Vodka",
+        alcoholPercentage: 40,
+        origin: "Nepal",
+        previousPrice: 1400,
+        discountedPrice: 1300,
+        rating: 4.7,
+        images: Array(3).fill("../../assets/images/8848.png")
+    },
+    { 
+        id: 24,
+        name: "Yarchagumba Whisky",
+        type: "Whisky",
+        alcoholPercentage: 40,
+        origin: "Nepal",
+        previousPrice: 1400,
+        discountedPrice: 1300,
+        rating: 4.7,
+        images: Array(3).fill("../../assets/images/yarchagumba.png")
+    },
+    
 ];
